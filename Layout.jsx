@@ -1,0 +1,13 @@
+import { Outlet } from 'react-router-dom';
+import NavBar from './NavBar.jsx';
+
+const Layout = () => {
+    return (
+        <div style={{ padding: '20px' }}>
+            <NavBar />
+            <Outlet />
+        </div>
+    );
+};
+
+export default Layout;
